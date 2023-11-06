@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Payone\Core\Model\Api\Invoice">
+        <plugin name="payone_add_bulk_goods_fee"
+                type="MageSuite\BulkGoodsPayone\Plugin\Payone\Core\Model\Api\Invoice\AddBulkGoodsFee" />
+    </type>
+</config>

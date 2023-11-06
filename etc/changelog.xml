@@ -1,0 +1,16 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:MageSuite_Changelog:etc/changelog.xsd">
+    <module id="MageSuite_BulkGoods"
+            name="MageSuite_BulkGoods"
+            description="This module allows marking products as bulk goods and adding additional fee when bulk goods products are ordered."
+            url="https://github.com/magesuite/bulk-goods">
+        <changelog>
+            <tag version="v1.0.0" date="2023-11-06">
+                <entry>
+                    <type>FEAT</type>
+                    <overview>Move Payone code to separate module</overview>
+                    <ticket_id>DOG-1690</ticket_id>
+                </entry>
+            </tag>
+        </changelog>
+    </module>
+</config>

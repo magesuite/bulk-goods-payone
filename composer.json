@@ -1,0 +1,16 @@
+{
+    "name": "creativestyle/magesuite-bulk-goods-payone",
+    "description": "Bulk Goods integration form Payone payment",
+    "type": "magento2-module",
+    "homepage": "https://creativestyle.de",
+    "license": "OSL-3.0",
+    "require": {
+        "payone-gmbh/magento-2": "^3.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "MageSuite\\BulkGoods\\": ""
+        }
+    }
+}
