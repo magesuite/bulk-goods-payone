@@ -5,12 +5,13 @@
     "homepage": "https://creativestyle.de",
     "license": "OSL-3.0",
     "require": {
-        "payone-gmbh/magento-2": "^3.0"
+        "payone-gmbh/magento-2": "^3.0",
+        "creativestyle/magesuite-bulk-goods": "^3.0"
     },
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
-            "MageSuite\\BulkGoods\\": ""
+            "MageSuite\\BulkGoodsPayone\\": ""
         }
     }
 }
